@@ -40,3 +40,52 @@ const user : {
     name: "Joe"
 }
 console.log(Direction1.Up)
+
+//function
+function add(x:number, y:number):number{
+    return x+y
+}
+
+interface customInterface {
+    readonly id: number,
+    name: string
+    salary?: number
+}
+
+const user1: customInterface = {
+    id : 1,
+    name:'Joe'
+}
+
+interface customInterface {
+    readonly id: number,
+    name: string
+    salary?: number
+}
+
+const user1: customInterface = {
+    id : 1,
+    name:'Joe'
+}
+
+interface customInterface {
+    readonly id: number,
+    name: string
+    salary?: number
+}
+
+const user1: customInterface = {
+    id : 1,
+    name:'Joe'
+}
+
+interface customInterface {
+    readonly id: number,
+    name: string
+    salary?: number
+}
+
+const user1: customInterface = {
+    id : 1,
+    name:'Joe'
+}
